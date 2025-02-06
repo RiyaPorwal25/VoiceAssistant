@@ -3,12 +3,21 @@ This is a voice assistant application that listens to your speech, recognizes co
 Here's a breakdown of the script:
 Libraries:
 ->pyttsx3: A library for converting text to speech.
+
 ->speech_recognition (sr): A library for speech recognition (listens to your voice commands).
+
 ->webbrowser: A built-in module to open URLs in the default web browser.
+
 ->datetime: A module for working with dates and times.
+
 ->pyjokes: A module to fetch jokes.
+
 ->os: A module to interact with the operating system (though not used in this specific script).
+
 ->time: A module used to introduce delays in the program.
+
+
+
 Functions:
   1.sptext():Listens to audio input from the user via the microphone.
 It uses Google’s speech recognition API to convert the speech into text and returns the recognized text.
